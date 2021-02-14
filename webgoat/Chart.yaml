@@ -1,0 +1,21 @@
+apiVersion: v2
+name: webgoat
+description: "Helm chart for deployment of OWASP WebGoat"
+type: application
+version: 0.1.0
+appVersion: v8.1.0
+
+home: https://owasp.org/www-project-webgoat/
+icon: https://webgoat.github.io/WebGoat/img/profile.png
+keywords:
+  - owasp
+  - webgoat
+  - security
+  - e-learning
+  - appsec
+  - ctf
+sources:
+  - https://github.com/WebGoat/WebGoat
+maintainers:
+  - name: René Zubcevic
+    email: rene.zubcevic@owasp.org
